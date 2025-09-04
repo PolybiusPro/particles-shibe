@@ -2,9 +2,9 @@ import restart from 'vite-plugin-restart';
 import glsl from 'vite-plugin-glsl';
 
 export default {
-  root: './',
+  root: 'src/',
   publicDir: '../static/',
-  base: '/',
+  base: './',
   server: {
     host: true, // Open to local network and display URL
   },
